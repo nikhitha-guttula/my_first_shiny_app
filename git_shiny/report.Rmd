@@ -1,0 +1,17 @@
+---
+title: "Statewise Rape Victims Report"
+output: html_document
+params:
+  slider_value: NULL
+  plot: NULL
+---
+
+## Rape Victims over time
+
+You selected the range from `r params$slider_value[1]` to `r params$slider_value[2]`.
+
+### Plot of Total Rape Victims in Selected Year Range
+
+```{r echo=FALSE}
+params$plot
+
